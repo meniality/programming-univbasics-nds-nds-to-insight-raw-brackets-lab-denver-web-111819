@@ -8,8 +8,8 @@ def directors_totals(nds)
  
   while row_index < directors_database.length do
     
-    column_index = 0
-      while 
+    movie_index = 0
+      while movie_index < directors_database[:movies].length
       end
     end
   end
