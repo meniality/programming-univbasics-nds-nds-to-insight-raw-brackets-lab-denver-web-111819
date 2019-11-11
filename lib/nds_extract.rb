@@ -10,7 +10,7 @@ def directors_totals(nds)
     
     gross_income = 0
     movie_index = 0
-    while movie_index < directors_database[directors_index][:movies][0].length do
+    while movie_index < directors_database[directors_index][:movies].length do
       gross_income +=  directors_database[directors_index][:movies][movie_index]  
         
       movie_index += 1
