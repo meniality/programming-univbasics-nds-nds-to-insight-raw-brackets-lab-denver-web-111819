@@ -13,8 +13,9 @@ def directors_totals(nds)
     while movie_index < directors_database[directors_index][:movies].length do
       gross_income +=  directors_database[directors_index][:movies][movie_index]  
         
-    
+      movie_index += 1
     end
+    directors_index += 1
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
