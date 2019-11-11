@@ -4,12 +4,12 @@ require 'directors_database'
 def directors_totals(nds)
  directors_film_totals = {}
  
- row_index = 0
+ directors_index = 0
  
-  while row_index < directors_database.length do
+  while directors_index < directors_database.length do
     
     movie_index = 0
-    while movie_index < directors_database[:movies].length do
+    while movie_index < directors_database[directors_index][:movies].length do
         
         
     
