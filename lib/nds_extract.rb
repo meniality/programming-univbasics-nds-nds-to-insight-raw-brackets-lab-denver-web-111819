@@ -4,10 +4,13 @@ require 'directors_database'
 def directors_totals(nds)
  directors_film_totals = {}
  
- row = 0
+ row_index = 0
  
-  while row < directors_database.length do
+  while row_index < directors_database.length do
     
+    column_index = 0
+      while 
+      end
     end
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
