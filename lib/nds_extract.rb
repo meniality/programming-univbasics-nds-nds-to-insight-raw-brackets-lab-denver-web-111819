@@ -17,6 +17,7 @@ def directors_totals(nds)
     end
     directors_film_totals = #{directors_database[directors_index][:name]}: => gross_income
     directors_index += 1
+    p gross_income
   end
   p directors_film_totals
   
