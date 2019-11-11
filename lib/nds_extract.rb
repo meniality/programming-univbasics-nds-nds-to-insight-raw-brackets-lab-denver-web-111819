@@ -18,5 +18,5 @@ def directors_totals(nds)
     result[#{nds[directors_index][:name]}] = gross_income
     directors_index += 1
   end
-  puts result
+  result
 end
