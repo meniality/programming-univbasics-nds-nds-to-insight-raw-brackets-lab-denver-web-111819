@@ -15,8 +15,8 @@ def directors_totals(nds)
         
       movie_index += 1
     end
+    directors_film_totals = directors_database
     directors_index += 1
-    p gross_income
   end
   
   # Remember, it's always OK to pretty print what you get *in* to make sure
